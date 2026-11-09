@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ApexMoveLab/ApexMoveLab.vcxproj" Id="58bd08c9-0d1e-4413-a92c-5ba7f648eff5" />
+</Solution>
