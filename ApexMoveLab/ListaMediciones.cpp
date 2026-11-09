@@ -315,7 +315,8 @@ double ListaMediciones::calcularDesviacionEstandarPoblacional(string categoria) 
 
 	for (Medicion* actual = cabeza; actual != nullptr; actual = actual->getSiguiente()) {
 		if (coincideConCategoria(*actual, categoria)) {
-			suma += pow(actual->getValorMedido() - media, 2);
+			double diferencia = actual->getValorMedido() - media;
+			suma += diferencia * diferencia;
 		}
 	}
 
